@@ -1,4 +1,10 @@
 Rails.application.routes.draw do
+  get 'fixed_pages/home'
+
+  get 'fixed_pages/help'
+
+  get 'fixed_pages/about'
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
